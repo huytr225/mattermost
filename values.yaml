@@ -99,7 +99,7 @@ mysql:
   enabled: true
   mysqlRootPassword: "huytd"
   mysqlUser: "huytd"
-  mysqlPassword: "admin"
+  mysqlPassword: "huytd"
   mysqlDatabase: mattermost
 
   repository: 'arm64v8/mysql'
