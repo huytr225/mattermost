@@ -103,7 +103,7 @@ mysql:
   mysqlDatabase: mattermost
 
   repository: arm64v8/mysql
-  imageTag: '8.0.29'
+  imageTag: '8.0.39'
   testFramework:
     enabled: false
 
