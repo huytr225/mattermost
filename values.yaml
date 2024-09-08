@@ -86,7 +86,7 @@ route:
 
 ## If use this please disable the mysql chart by setting mysql.enable to false
 externalDB:
-  enabled: false
+  enabled: true
 
   ## postgres or mysql
   externalDriverType: "postgres"
