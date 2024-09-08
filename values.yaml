@@ -86,7 +86,7 @@ route:
 
 ## If use this please disable the mysql chart by setting mysql.enable to false
 externalDB:
-  enabled: true
+  enabled: false
 
   ## postgres or mysql
   externalDriverType: "postgres"
@@ -96,7 +96,7 @@ externalDB:
   externalConnectionString: "huytd:@localhost:5432/mattermost?sslmode=disable&connect_timeout=10"
 
 mysql:
-  enabled: false
+  enabled: true
   mysqlRootPassword: ""
   mysqlUser: ""
   mysqlPassword: ""
