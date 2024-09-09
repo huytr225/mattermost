@@ -97,9 +97,9 @@ externalDB:
 
 mysql:
   enabled: true
-  mysqlRootPassword: "huytd"
-  mysqlUser: "mysql"
-  mysqlPassword: "huytd"
+  mysqlRootPassword: ""
+  mysqlUser: ""
+  mysqlPassword: ""
   mysqlDatabase: mattermost
 
   repository: 'arm64v8/mysql'
